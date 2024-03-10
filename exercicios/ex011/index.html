@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        
+        <source media="(min-width: )" srcset="" type="image/">
+        <source media="(max-width: 730px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h2>Repoduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    
+    <audio src="midia/zadamanga.wav" controls autoplay></audio>
+    <!--MP3, WAV, OGG-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/zadamanga.wav" type="audio/wav">
+        <p>Infelizmente, seu naveador não consegue reproduzir áudio. <a href="midia/zadamanga.wav">Clique aqui para abaixar o audio WAV.</a></p>
+    </audio>
+</body>
+</html>
