@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quia officia accusantium, maxime iste eius optio officiis totam sequi magnam! Vitae aut ullam culpa aliquid pariatur necessitatibus quisquam, natus at?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html"
+            target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odio praesentium veritatis nostrum nihil mollitia quibusdam. Aliquam qui odit hic, doloremque nihil asperiores odio? Dignissimos quos tenetur cumque saepe non? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quod expedita labore, consequatur qui corrupti, ut error magni est inventore incidunt consectetur numquam laudantium quas, aut dolor? Excepturi, eaque facere.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima para serem abertas aqui</h1>" id="tela" name="frame">
+        <p>Infelizmente seu navegador não suporta iframe.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quidem quasi ab facilis veritatis numquam magnam sequi obcaecati molestias, velit possimus quo cum temporibus voluptatibus natus est blanditiis tempore quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum beatae ratione in maiores error itaque corporis adipisci voluptatibus est accusantium? Repellendus aspernatur illum beatae rem quis ut nulla, deserunt magni.</p>
+</body>
+</html>
