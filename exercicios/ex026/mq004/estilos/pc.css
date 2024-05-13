@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* Pc */
+
+body{
+    background: url(../imagens/back-pc.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+
+img#cel{display: none;}
+img#tab{display: none;}
+img#pc{display: none;}
+img#imp{display: none;}
+img#tv{display: none;}
+
+img#pc{
+    display: block;
+    margin: auto;
+    height: 250px;
+    padding-top: 30px;
+}

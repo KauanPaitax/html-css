@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* impressora */
+
+body{
+    background: url(../imagens/back-print.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+
+main{
+    border: 2px solid black;
+}
+
+img#cel{display: none;}
+img#tab{display: none;}
+img#pc{display: none;}
+img#imp{display: none;}
+img#tv{display: none;}
+
+img#imp{
+    display: block;
+    margin: auto;
+    height: 250px;
+    padding-top: 30px;
+}
