@@ -23,13 +23,13 @@ main{
     margin: auto;
 }
 
-img#cel{display: none;}
+img#cel{display: block;}
 img#tab{display: none;}
 img#pc{display: none;}
 img#imp{display: none;}
 img#tv{display: none;}
 
-img#cel{
+img{
     display: block;
     margin: auto;
     height: 250px;

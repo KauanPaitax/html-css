@@ -8,13 +8,6 @@ body{
 
 img#cel{display: none;}
 img#tab{display: none;}
-img#pc{display: none;}
+img#pc{display: block;}
 img#imp{display: none;}
 img#tv{display: none;}
-
-img#pc{
-    display: block;
-    margin: auto;
-    height: 250px;
-    padding-top: 30px;
-}

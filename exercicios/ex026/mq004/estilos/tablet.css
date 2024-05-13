@@ -7,14 +7,7 @@ body{
 }
 
 img#cel{display: none;}
-img#tab{display: none;}
+img#tab{display: block;}
 img#pc{display: none;}
 img#imp{display: none;}
 img#tv{display: none;}
-
-img#tab{
-    display: block;
-    margin: auto;
-    height: 250px;
-    padding-top: 30px;
-}

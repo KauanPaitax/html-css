@@ -4,21 +4,24 @@
 body{
     background: url(../imagens/back-print.jpg) center center fixed no-repeat;
     background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 main{
     border: 2px solid black;
 }
 
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body::after{
+    content: 'Impressão feita através do site www.kaufps.com.br';
+    text-decoration: overline;
+}
+
 img#cel{display: none;}
 img#tab{display: none;}
 img#pc{display: none;}
 img#imp{display: none;}
-img#tv{display: none;}
-
-img#imp{
-    display: block;
-    margin: auto;
-    height: 250px;
-    padding-top: 30px;
-}
+img#tv{display: block;}
